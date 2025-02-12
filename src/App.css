@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.F{
+    color: white;
+}
+.FF{
+    background-color:  #39DB4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    border-radius: 8px;
+}
+.foodi{
+    display: flex;
+    align-items: center;
+}
+.aas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+.a1{
+    text-decoration: none;
+    color: #39DB4A;
+
+}
+.a2{
+    text-decoration: none;
+    color: #272727;
+}
+.button1{
+    background-color: #39DB4A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.button2{
+    background-color: #39DB4A;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    box-shadow: -2px 22px 38px 0px #8EFF9A80;
+}
+.button1:hover{
+    background-color: white;
+    border: 1px solid #39DB4A;
+    color: #39DB4A;
+}
+
+a:hover{
+    color: red;
+}
+p:hover{
+    color: red;
+}
+h1:hover{
+    color: red;
+}
+h2:hover{
+    color: red;
+}
+h3:hover{
+    color: red;
+}
+h4:hover{
+    color: red;
+}
+.buttonandsearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.text1{
+    font-size: 60px;
+}
+.text2{
+    font-size: 55px;
+}
+.text3{
+    font-size: 50px;
+}
+.text4{
+    font-size: 45px;
+}
+.text5{
+    font-size: 40px;
+}
+.text6{
+    font-size: 35px;
+}
+.text7{
+    font-size: 30px;
+}
+.text8{
+    font-size: 25px;
+}
+.text9{
+    font-size: 20px;
+}
+.text10{
+    font-size: 15px;
+}
+.text11{
+    font-size: 12px;
+}
+.text12{
+    font-size: 10px;
+}
+
+.displayflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foodtext{
+    color: #39DB4A;
+}
+.gray{
+    color: gray;
+}
+.logo1{
+    width: 500px;
+}
+.buttonandwatch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+}
+i:hover{
+    scale: 1.2;
+}
+img:hover{
+    scale: 1.1;
+}
+.section2{
+    margin-top: 200px;
+}
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.red{
+    color: red;
+}
+.ovqatlar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ovqat{
+    width: 280px;
+    height: 280px;
+    box-shadow: 2px 10px 30px 0px #0000001A;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ovqatimgdiv{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #C1F1C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ovqatimg{
+    width: 120px;
+
+}
+.ovqatimg2{
+    width: 250px;
+}
+.juice{
+    width: 80px;
+}
+.specialdishesbigdiv{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.foodsdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.fooddiv{
+    width: 380px;
+    height: 420px;
+    box-shadow: 2px 9px 42px 0px #00000014;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.oshpazimg{
+    width: 300px;
+}
+.Testimonials{
+    width: 500px;
+}
+.section4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.fourdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 20px;
+}
+
+.onediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 220px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 7px 12px 43px 0px #00000024;
+    padding: 30px;
+}
+.onediv img{
+    width: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 100px;
+}
