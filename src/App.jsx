@@ -11,10 +11,6 @@ import logo7 from './img/logo7.png'
 import logo8 from './img/logo8.png'
 
 function App() {
-
-
-  
-
   return (
 
     <>
